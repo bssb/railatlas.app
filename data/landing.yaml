@@ -1,6 +1,3 @@
-# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
-
-# Hero
 hero:
   enable: true
   weight: 10
@@ -24,14 +21,14 @@ hero:
   #   alt: "Lotus Docs Logo"
   #   height: 80px
 
-  title: "Lotus Nocs"
+  title: "RailAtlas"
   subtitle: A lightweight, **modern documentation** theme for Hugo. Easily customised for building **fast**, **secure**, and **SEO-friendly** documentation sites.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
-    filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
-    alt: "Lotus Docs Screenshot" # Optional but recommended
-    boxShadow: true # default 'false' (excludes .svg images)
+    filename: "phone-debug.png" # filename of your hero image (including file extension)
+    alt: "RailAtlas Screenshot" # Optional but recommended
+    boxShadow: false # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
   ctaButton:
@@ -45,19 +42,20 @@ hero:
 
   info: "**Open Source** MIT Licensed."
 
+
 # Feature Grid
 featureGrid:
   enable: true
-  weight: 20
+  weight: 40
   template: feature grid
 
-  title: Why choose Lotus Docs?
-  subtitle: Lotus Docs is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
+  title: Why choose RailAtlas?
+  subtitle: RailAtlas is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
 
   items:
     - title: Fast
       icon: speed
-      description: 4 x 100's score on Google Lighthouse by default. Lotus Docs removes unused CSS, prefetches asset links, and lazy loads content images.
+      description: 4 x 100's score on Google Lighthouse by default. RailAtlas removes unused CSS, prefetches asset links, and lazy loads content images.
 
     - title: SEO Friendly
       icon: trending_up
@@ -65,11 +63,11 @@ featureGrid:
 
     - title: Secure by default
       icon: lock
-      description: Lotus Docs' default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.
+      description: RailAtlas' default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.
 
     - title: Optional Features
       icon: settings
-      description: Many Lotus Docs features are configurable via optional parameters. Require DocSearch for your site? Then enable it via a single setting.
+      description: Many RailAtlas features are configurable via optional parameters. Require DocSearch for your site? Then enable it via a single setting.
 
     - title: Deploy to Vercel
       icon: change_history
@@ -85,16 +83,45 @@ featureGrid:
 
     - title: Multilingual Support
       icon: translate
-      description: Lotus Docs supports Hugo's Multilingual Mode. Create documentation in multiple languages side by side with i18n support.
+      description: RailAtlas supports Hugo's Multilingual Mode. Create documentation in multiple languages side by side with i18n support.
 
     - title: Bootstrap v5
       icon: palette
-      description: Built on Bootstrap 5, Lotus Docs allows for a familiar, flexible, and intuitive developer experience. Easily customise your site via SCSS variables and files.
+      description: Built on Bootstrap 5, RailAtlas allows for a familiar, flexible, and intuitive developer experience. Easily customise your site via SCSS variables and files.
+
+
+imageText:
+  weight: 30
+  enable: false
+  template: image text
+
+  title: Customise The Lotus Docs Appearance # 1
+  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters. #2
+  ctaButton:
+      text: Learn more
+      url: "/docs/"
+  list:
+  - text: Blazing fast page loads
+    icon: speed
+
+  - text: Sensible default SEO friendly settings
+    icon: area_chart
+
+  - text: Designed to be accessible
+    icon: accessibility
+  image:
+    path: "images"
+    filename: "phone-logo.png"
+    alt: "RailAtlas demo screenshot" # Optional but recommended
+
+  imgOrder:
+    desktop: 2
+    mobile: 1
 
 # Image compare
 imageCompare:
-  enable: true
-  weight: 30
+  enable: false
+  weight: 50
   template: image compare
 
   title: Customise The Lotus Docs Appearance
