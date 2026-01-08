@@ -22,7 +22,7 @@ hero:
   #   height: 80px
 
   title: "RailAtlas"
-  subtitle: A lightweight, **modern documentation** theme for Hugo. Easily customised for building **fast**, **secure**, and **SEO-friendly** documentation sites.
+  subtitle:  A lightweight, **modern documentation** theme for Hugo. Easily customised for building **fast**, **secure**, and **SEO-friendly** documentation sites.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
@@ -53,12 +53,12 @@ featureGrid:
   subtitle: RailAtlas is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
 
   items:
-    - title: Fast
-      icon: speed
-      description: 4 x 100's score on Google Lighthouse by default. RailAtlas removes unused CSS, prefetches asset links, and lazy loads content images.
+    - title: Realtime train locations
+      icon: train
+      description: Show train locations in realtime on an interactive map. View routes and station locations.
 
-    - title: SEO Friendly
-      icon: trending_up
+    - title: Schedules and delays
+      icon: acute
       description: Data is automatically structured to be SEO friendly. Includes Meta tags, Opengraph, and Twitter cards. Choose the settings that best suit you.
 
     - title: Secure by default
@@ -76,18 +76,6 @@ featureGrid:
     - title: Dark Mode
       icon: dark_mode
       description: "Prefer not to be blasted by the sun while reading? Switch to a low-light UI with the click of a button. Modify colour variables to match your branding."
-
-    - title: Search by DocSearch
-      icon: search
-      description: Search your docs with DocSearch. A powerful, efficient and accessible search solution built on Algolia Crawler & Autocomplete.
-
-    - title: Multilingual Support
-      icon: translate
-      description: RailAtlas supports Hugo's Multilingual Mode. Create documentation in multiple languages side by side with i18n support.
-
-    - title: Bootstrap v5
-      icon: palette
-      description: Built on Bootstrap 5, RailAtlas allows for a familiar, flexible, and intuitive developer experience. Easily customise your site via SCSS variables and files.
 
 
 imageText:
